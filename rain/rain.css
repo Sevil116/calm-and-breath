@@ -1,0 +1,83 @@
+
+#head {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #61677A;
+    
+}
+
+
+#container-countdown {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ffc6ac82;
+    height: 300px;
+    width: 600px;
+   border-radius: 10px; 
+}
+#countdown, #twoButtons {
+    align-self: center;
+}
+
+#countdown {
+    font-size: 60px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #EEEEEE
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -10;
+}
+
+.buttonStyle {
+    padding: 10px;
+    background-color: #EEEEEE;
+    margin: 20px;
+    border: 2px solid white;
+    color: black;
+    font-size: 30px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-radius: 10px;
+}
+
+.buttonStyle:hover {
+    background: linear-gradient(to right, #EEEEEE, #176b874d);
+    color: #61677A;
+}
+
+@media all and (max-width: 500px) {
+    #container-countdown {
+        width: 80%; 
+    }
+
+    #head {
+        margin-top: 50px;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center
+    }
+    
+
+    #countdown {
+        font-size: 40px; 
+    }
+    
+    .buttonStyle {
+        font-size: 30px; 
+    }
+
+}
