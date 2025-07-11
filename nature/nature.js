@@ -41,5 +41,5 @@ function stopTimer() {
 
 const home = document.querySelector("#home");
   home.addEventListener("click", () => {
-  document.location.assign("https://calm-and-breath.glitch.me");
+  document.location.assign("https://calm-and-breath.netlify.app/");
 });
